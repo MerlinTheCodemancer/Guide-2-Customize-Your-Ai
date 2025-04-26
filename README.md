@@ -3,6 +3,32 @@
 <a href="#personalizing-ai-assistants"><img src="https://www.datamyne.com.br/wp-content/blogs.dir/1/files/2022/04/united-states-1.png" width="30" height="20" alt="English"></a><a href="#personalizing-ai-assistants"> English</a> | <a href="#personalizando-assistentes-de-ia"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" width="30" height="20" alt="Português"></a> <a href="#personalizando-assistentes-de-ia"> PortuguesBR</a>
 ---
 
+## Table of Contents
+- [Personalizing AI Assistants](#personalizing-ai-assistants)
+  - [Introduction](#introduction)
+  - [What is AI Personalization?](#what-is-ai-personalization)
+  - [Why Personalize AI Assistants?](#why-personalize-ai-assistants)
+  - [How to Personalize Different AI Assistants](#how-to-personalize-different-ai-assistants)
+  - [Universal Personalization Template](#universal-personalization-template)
+  - ["Simple" XML Template](#simple-xml-template)
+  - [Advanced XML-Based Prompt Template](#advanced-xml-based-prompt-template)
+  - [Step-by-Step ChatGPT Custom Instructions Guide](#step-by-step-chatgpt-custom-instructions-guide)
+  - [Step-by-Step Claude Custom Instructions Guide](#step-by-step-claude-custom-instructions-guide)
+  - [Comparing AI Assistants for Personalization](#comparing-ai-assistants-for-personalization)
+  - [Which AI Assistant Should You Personalize?](#which-ai-assistant-should-you-personalize)
+- [Personalizando Assistentes de IA](#personalizando-assistentes-de-ia)
+  - [Introdução](#introdução)
+  - [O que é Personalização de IA?](#o-que-é-personalização-de-ia)
+  - [Por que Personalizar Assistentes de IA?](#por-que-personalizar-assistentes-de-ia)
+  - [Como Personalizar Diferentes Assistentes de IA](#como-personalizar-diferentes-assistentes-de-ia)
+  - [Modelo Universal de Personalização](#modelo-universal-de-personalização)
+  - [XML "Simples"](#xml-simples)
+  - [Modelo Avançado de Prompt com XML](#modelo-avançado-de-prompt-com-xml)
+  - [Guia Passo a Passo das Instruções Personalizadas do ChatGPT](#guia-passo-a-passo-das-instruções-personalizadas-do-chatgpt)
+  - [Guia Passo a Passo das Instruções Personalizadas do Claude](#guia-passo-a-passo-das-instruções-personalizadas-do-claude)
+  - [Comparando Assistentes de IA para Personalização](#comparando-assistentes-de-ia-para-personalização)
+  - [Qual Assistente de IA Você Deve Personalizar?](#qual-assistente-de-ia-você-deve-personalizar)
+
 ## Personalizing AI Assistants
 
 ### 👋 Introduction
@@ -154,29 +180,108 @@ print("Code example")
 </template>
 ```
 
-### ✨ Best Practices for Personalization
-- **Be specific:** Clearly define what you want
-- **Prioritize information:** Put the most important instructions first
-- **Use structure:** Organize with headings, lists, and sections
-- **Include examples:** Show the AI exactly what you expect
-- **Test and refine:** Adjust your template based on results
+### 📱 Step-by-Step ChatGPT Custom Instructions Guide
 
-### 👨‍🏫 Example: Subject Matter Expert Personalization
-```
-Act as an expert in [FIELD] with 15+ years of experience.
-- Answer questions about [TOPIC] with depth and precision
-- Use technical vocabulary appropriate for [BEGINNER/ADVANCED] level
-- Structure responses with clear headings and bullet points
-- Include practical examples that demonstrate concepts
-- Reference authoritative sources in the field
-```
+ChatGPT offers personalization through its Custom Instructions feature. Here's how to set it up:
 
-### 📚 References
-- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
-- [ChatGPT Custom Instructions Guide](https://help.openai.com/en/articles/7730887-custom-instructions-for-chatgpt)
-- [Gemini Advanced Documentation](https://ai.google.dev/gemini-api/docs/models/gemini)
-- [Claude Documentation](https://docs.anthropic.com/claude/docs)
-- [Markdown Guide](https://www.markdownguide.org/)
+#### Step 1: Access Settings
+![ChatGPT Settings](Sources/GPT/1.jpg)
+Click on your profile in the bottom-left corner, then select "Settings" to access the configuration menu.
+
+#### Step 2: Navigate to Personalization
+![ChatGPT Personalization](Sources/GPT/2.jpg)
+In the settings menu, select "Personalization" to access customization options.
+
+#### Step 3: Find Custom Instructions
+![ChatGPT Custom Instructions](Sources/GPT/3.jpg)
+Click on "Custom Instructions" to configure how ChatGPT should respond to you.
+
+#### Step 4: Introduction to Custom Instructions
+![ChatGPT Instructions Introduction](Sources/GPT/4.jpg)
+Review the introduction explaining how custom instructions work across your conversations.
+
+#### Step 5: Enter Personal Details
+![ChatGPT Personal Details](Sources/GPT/5.jpg)
+In this form, enter:
+- Your preferred name
+- Your occupation or role
+- Characteristics you want ChatGPT to have (conversational, insightful, direct, etc.)
+- Personal interests and preferences you want ChatGPT to remember
+
+#### Step 6: Submit and Apply
+![ChatGPT Submit](Sources/GPT/6.jpg)
+After entering your personalization details, click "Continue" or "Save" to apply these settings to your future conversations.
+
+### 📱 Step-by-Step Claude Custom Instructions Guide
+
+Claude also offers powerful personalization features. Here's how to set it up:
+
+#### Step 1: Start a New Conversation
+![Claude New Conversation](Sources/Claude/1.jpg)
+Open Claude and start a new conversation by clicking on the "New Chat" button.
+
+#### Step 2: Access Settings
+![Claude Settings](Sources/Claude/2.jpg)
+Click on the settings icon (gear symbol) in the top-right corner of the interface.
+
+#### Step 3: Configure Personalization
+![Claude Personalization](Sources/Claude/3.jpg)
+In the settings menu, look for personalization options and select "Custom Instructions" or "Conversation Settings".
+
+#### Step 4: Enter Your Preferences
+![Claude Preferences](Sources/Claude/4.jpg)
+Enter your personalization details, including:
+- How Claude should address you
+- Your preferred communication style
+- Topics of interest
+- Any specific formatting preferences
+
+#### Step 5: Save Your Settings
+![Claude Save Settings](Sources/Claude/5.jpg)
+Click "Save" or "Apply" to store your personalization preferences for current and future conversations.
+
+#### Step 6: Test and Refine
+![Claude Test Settings](Sources/Claude/6.jpg)
+Start a conversation to test your custom settings, and refine them as needed for optimal results.
+
+### 🔍 Comparing AI Assistants for Personalization
+
+Each major AI assistant has unique strengths when it comes to personalization:
+
+#### ChatGPT (OpenAI)
+- **Definitely the best for academic and technical research** with its powerful "Browse with Bing" and "Investigate" tools
+- Clean, straightforward interface that facilitates obtaining objective answers
+- Superior code interpretation and generation capabilities for developers
+- Advanced data analysis with intuitive visualization tools
+- Excellent for summarizing complex content in understandable formats
+
+#### Google Gemini
+- **Superiorly efficient at finding and suggesting relevant links** for online research
+- Excellent integration with Google's ecosystem, making it complementary to searches
+- Perfect for enhancing Google search results and web exploration
+- Interesting for casual use, but still limited for deeper analyses
+- Recommended primarily as a complementary tool to Google Search
+
+#### Claude 3.7 (Anthropic)
+- **Currently offers the best overall and most balanced experience** for most tasks
+- Exceptional personalization system with robust, configurable styles
+- Support for multiple personalization profiles as demonstrated in the guide
+- Remarkably superior contextual understanding and consistency compared to alternatives
+- Excellent for document analysis and complex reasoning in professional situations
+- Clean interface and style system that facilitates advanced customization
+
+#### Meta AI (WhatsApp)
+While Meta AI offers practical integration with WhatsApp, **there are serious privacy considerations** that should be evaluated. According to the terms of service, using Meta AI in WhatsApp potentially grants Meta much broader permissions for using your personal data and conversations than WhatsApp's standard policy, which is concerning for those who value digital privacy. The integration may be convenient, but the cost in terms of privacy deserves careful reflection.
+
+### 🌐 Which AI Assistant Should You Personalize?
+
+The ideal choice depends on your specific use case:
+- **For academic research and detailed technical queries**: ChatGPT with browsing capabilities
+- **For complementing web searches and finding quick references**: Google Gemini
+- **For general professional use and advanced customization**: Claude 3.7
+- **For maximum consistency across platforms**: Create similar personalization templates across all assistants
+
+To ensure a consistent experience, I recommend using the same personalization templates (adapted as needed) across all platforms you regularly use.
 
 ---
 
@@ -331,26 +436,107 @@ print("Exemplo de código")
 </template>
 ```
 
-### ✨ Melhores Práticas de Personalização
-- **Seja específico:** Defina claramente o que você quer
-- **Priorize informações:** Coloque as instruções mais importantes primeiro
-- **Use estrutura:** Organize com títulos, listas e seções
-- **Inclua exemplos:** Mostre à IA exatamente o que você espera
-- **Teste e refine:** Ajuste seu modelo com base nos resultados
+### 📱 Guia Passo a Passo das Instruções Personalizadas do ChatGPT
 
-### 👨‍🏫 Exemplo: Personalização de Especialista em Assunto
-```
-Atue como um especialista em [ÁREA] com mais de 15 anos de experiência.
-- Responda perguntas sobre [TÓPICO] com profundidade e precisão
-- Use vocabulário técnico apropriado para nível [INICIANTE/AVANÇADO]
-- Estruture respostas com títulos claros e marcadores
-- Inclua exemplos práticos que demonstrem os conceitos
-- Faça referência a fontes autoritativas na área
-```
+O ChatGPT oferece personalização através do recurso de Instruções Personalizadas. Veja como configurá-lo:
 
-### 📚 Fontes e Referências
-- [Documentação do GitHub Copilot](https://docs.github.com/en/copilot)
-- [Guia de Instruções Personalizadas do ChatGPT](https://help.openai.com/en/articles/7730887-custom-instructions-for-chatgpt)
-- [Documentação do Gemini Advanced](https://ai.google.dev/gemini-api/docs/models/gemini)
-- [Documentação do Claude](https://docs.anthropic.com/claude/docs)
-- [Guia de Markdown](https://www.markdownguide.org/)
+#### Passo 1: Acesse as Configurações
+![Configurações do ChatGPT](Sources/GPT/1.jpg)
+Clique no seu perfil no canto inferior esquerdo e selecione "Configurações" para acessar o menu de configuração.
+
+#### Passo 2: Navegue até Personalização
+![Personalização do ChatGPT](Sources/GPT/2.jpg)
+No menu de configurações, selecione "Personalização" para acessar as opções de customização.
+
+#### Passo 3: Encontre Instruções Personalizadas
+![Instruções Personalizadas do ChatGPT](Sources/GPT/3.jpg)
+Clique em "Instruções Personalizadas" para configurar como o ChatGPT deve responder a você.
+
+#### Passo 4: Introdução às Instruções Personalizadas
+![Introdução às Instruções do ChatGPT](Sources/GPT/4.jpg)
+Revise a introdução que explica como as instruções personalizadas funcionam em suas conversas.
+
+#### Passo 5: Insira Detalhes Pessoais
+![Detalhes Pessoais do ChatGPT](Sources/GPT/5.jpg)
+Neste formulário, insira:
+- Seu nome preferido
+- Sua ocupação ou função
+- Características que você quer que o ChatGPT tenha (conversacional, perspicaz, direto, etc.)
+- Interesses pessoais e preferências que você quer que o ChatGPT lembre
+
+#### Passo 6: Envie e Aplique
+![Enviar ChatGPT](Sources/GPT/6.jpg)
+Após inserir seus detalhes de personalização, clique em "Continuar" ou "Salvar" para aplicar essas configurações às suas futuras conversas.
+
+### 📱 Guia Passo a Passo das Instruções Personalizadas do Claude
+
+O Claude também oferece poderosos recursos de personalização. Veja como configurá-lo:
+
+#### Passo 1: Inicie uma Nova Conversa
+![Nova Conversa do Claude](Sources/Claude/1.jpg)
+Abra o Claude e inicie uma nova conversa clicando no botão "Nova Conversa".
+
+#### Passo 2: Acesse as Configurações
+![Configurações do Claude](Sources/Claude/2.jpg)
+Clique no ícone de configurações (símbolo de engrenagem) no canto superior direito da interface.
+
+#### Passo 3: Configure a Personalização
+![Personalização do Claude](Sources/Claude/3.jpg)
+No menu de configurações, procure por opções de personalização e selecione "Instruções Personalizadas" ou "Configurações de Conversa".
+
+#### Passo 4: Insira Suas Preferências
+![Preferências do Claude](Sources/Claude/4.jpg)
+Insira seus detalhes de personalização, incluindo:
+- Como o Claude deve se dirigir a você
+- Seu estilo de comunicação preferido
+- Tópicos de interesse
+- Quaisquer preferências específicas de formatação
+
+#### Passo 5: Salve Suas Configurações
+![Salvar Configurações do Claude](Sources/Claude/5.jpg)
+Clique em "Salvar" ou "Aplicar" para armazenar suas preferências de personalização para conversas atuais e futuras.
+
+#### Passo 6: Teste e Refine
+![Testar Configurações do Claude](Sources/Claude/6.jpg)
+Inicie uma conversa para testar suas configurações personalizadas e refine-as conforme necessário para resultados ideais.
+
+### 🔍 Comparando Assistentes de IA para Personalização
+
+Cada assistente de IA importante tem pontos fortes únicos quando se trata de personalização:
+
+#### ChatGPT (OpenAI)
+- **Definitivamente o melhor para pesquisa acadêmica e técnica** com suas poderosas ferramentas "Browse with Bing" e "Investigate"
+- Interface limpa e direta que facilita a obtenção de respostas objetivas
+- Capacidades superiores de interpretação e geração de código para desenvolvedores
+- Análise avançada de dados com ferramentas intuitivas de visualização
+- Excelente para resumir conteúdo complexo em formatos compreensíveis
+
+#### Google Gemini
+- **Superiormente eficiente em encontrar e sugerir links relevantes** para pesquisa online
+- Excelente integração com o ecossistema do Google, tornando-o complementar às pesquisas
+- Perfeito para aprimorar os resultados de pesquisa do Google e exploração web
+- Interessante para uso casual, mas ainda limitado para análises mais profundas
+- Recomendado principalmente como uma ferramenta complementar ao Google Search
+
+#### Claude 3.7 (Anthropic)
+- **Atualmente oferece a melhor experiência geral e mais equilibrada** para a maioria das tarefas
+- Sistema de personalização excepcional com estilos robustos e configuráveis
+- Suporte para múltiplos perfis de personalização como demonstrado no guia
+- Compreensão contextual e consistência notavelmente superiores em comparação com alternativas
+- Excelente para análise de documentos e raciocínio complexo em situações profissionais
+- Interface limpa e sistema de estilo que facilita a personalização avançada
+
+#### Meta AI (WhatsApp)
+Embora o Meta AI ofereça integração prática com o WhatsApp, **existem sérias considerações de privacidade** que devem ser avaliadas. De acordo com os termos de serviço, usar o Meta AI no WhatsApp potencialmente concede à Meta permissões muito mais amplas para uso de seus dados pessoais e conversas do que a política padrão do WhatsApp, o que é preocupante para aqueles que valorizam a privacidade digital. A integração pode ser conveniente, mas o custo em termos de privacidade merece uma reflexão cuidadosa.
+
+### 🌐 Qual Assistente de IA Você Deve Personalizar?
+
+A escolha ideal depende do seu caso de uso específico:
+- **Para pesquisa acadêmica e consultas técnicas detalhadas**: ChatGPT com capacidades de navegação
+- **Para complementar pesquisas na web e encontrar referências rápidas**: Google Gemini
+- **Para uso profissional geral e personalização avançada**: Claude 3.7
+- **Para máxima consistência entre plataformas**: Crie modelos de personalização semelhantes em todos os assistentes
+
+Para garantir uma experiência consistente, recomendo usar os mesmos modelos de personalização (adaptados conforme necessário) em todas as plataformas que você usa regularmente.
+
+---
