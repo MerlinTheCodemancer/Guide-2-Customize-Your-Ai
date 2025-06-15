@@ -1,6 +1,17 @@
 # 🤖 AI Assistant Personalization Guide | Guia de Personalização de Assistentes de IA
 
-<a href="#personalizing-ai-assistants"><img src="https://www.datamyne.com.br/wp-content/blogs.dir/1/files/2022/04/united-states-1.png" width="30" height="20" alt="English"></a><a href="#personalizing-ai-assistants"> English</a> | <a href="#personalizando-assistentes-de-ia"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" width="30" height="20" alt="Português"></a> <a href="#personalizando-assistentes-de-ia"> PortuguesBR</a>
+> **This guide will help anyone, even beginners, to make AI assistants (like ChatGPT, Copilot, Gemini, and Claude) answer in the way you prefer. You don't need to be a tech expert!**
+
+---
+
+## 📚 What is this guide for?
+This guide explains, in simple language, how you can make your favorite AI assistant answer your questions in a style that fits you. You will learn:
+- What is AI personalization (and why it matters)
+- How to set up your preferences in different AIs
+- Easy templates you can copy and use
+- Step-by-step instructions with images
+- Tips for choosing the best AI for your needs
+
 ---
 
 ## Table of Contents
@@ -29,19 +40,21 @@
   - [Comparando Assistentes de IA para Personalização](#comparando-assistentes-de-ia-para-personalização)
   - [Qual Assistente de IA Você Deve Personalizar?](#qual-assistente-de-ia-você-deve-personalizar)
 
+---
+
 ## Personalizing AI Assistants
 
 ### 👋 Introduction
-Welcome to the AI Assistant Personalization Guide! This manual will help you customize popular AI assistants like GPT, Copilot, Gemini, and Claude to better suit your needs. Personalization improves your interaction with AI by making responses more relevant, structured, and aligned with your preferences.
+Welcome! This guide will show you, step by step, how to make AI assistants (like GPT, Copilot, Gemini, and Claude) answer in a way that is clearer, friendlier, and more useful for you. You don't need to be a programmer or have any special knowledge.
 
 ### 🧠 What is AI Personalization?
-AI personalization is the process of customizing how an AI assistant responds to your prompts. This is done through special instructions that tell the AI how to format answers, what tone to use, what languages to prioritize, and what structure to follow. Think of it as setting your preferences before starting a conversation!
+Personalizing an AI means telling it how you want it to answer you. For example, you can ask it to use simple language, give examples, or answer in your favorite language. You do this by giving the AI some instructions before you start asking questions.
 
 ### 🎯 Why Personalize AI Assistants?
-- **Consistency:** Get similarly structured responses each time
-- **Efficiency:** Receive information in your preferred format
-- **Relevance:** Focus on topics and styles that matter to you
-- **Clarity:** Establish clear communication patterns
+- **Consistency:** The AI will always answer in a similar way, making it easier to understand.
+- **Efficiency:** You get answers in the format you like best.
+- **Relevance:** The AI focuses on what matters to you.
+- **Clarity:** Communication is easier and less confusing.
 
 ### ⚙️ How to Personalize Different AI Assistants
 
